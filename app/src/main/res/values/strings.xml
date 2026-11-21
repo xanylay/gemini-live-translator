@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Gemini Live Translator</string>
+    <string name="app_tagline">Real-time Burmese Floating Subtitles</string>
+
+    <!-- Navigation -->
+    <string name="nav_studio">Studio</string>
+    <string name="nav_transcripts">Transcripts</string>
+    <string name="nav_settings">Settings</string>
+
+    <!-- Studio Screen -->
+    <string name="studio_title">Live Subtitle Studio</string>
+    <string name="studio_hero_cd">Live acoustic waveform banner</string>
+    <string name="studio_source_media">Internal / Media Audio</string>
+    <string name="studio_source_mic">Microphone</string>
+    <string name="studio_target_language">Target: Burmese (မြန်မာဘာသာ)</string>
+    <string name="studio_start_overlay">Start Live Translation</string>
+    <string name="studio_stop_overlay">Stop Translation</string>
+    <string name="studio_open_overlay_only">Show Overlay Window</string>
+    <string name="studio_hide_overlay_only">Hide Overlay Window</string>
+    <string name="studio_clear_live">Clear</string>
+    <string name="studio_checklist_title">Readiness Checklist</string>
+    <string name="studio_live_monitor_title">In-App Subtitle Monitor</string>
+    <string name="studio_live_placeholder">တိုက်ရိုက်ဘာသာပြန် စာတန်းထိုးများ ဤနေရာတွင် ပေါ်လာပါမည်…</string>
+
+    <!-- Checklist & Permissions -->
+    <string name="perm_api_key_title">Gemini API Key</string>
+    <string name="perm_api_key_ready">Saved locally (AES-256 encrypted)</string>
+    <string name="perm_api_key_missing">Add your Gemini API key in Settings</string>
+    <string name="perm_overlay_title">Draw Over Other Apps</string>
+    <string name="perm_overlay_granted">Overlay window permission granted</string>
+    <string name="perm_overlay_needed">Required for floating Burmese subtitles</string>
+    <string name="perm_mic_title">Microphone Access</string>
+    <string name="perm_mic_granted">Microphone permission granted</string>
+    <string name="perm_mic_needed">Required to capture voice or ambient speech</string>
+    <string name="perm_media_title">Internal Media Capture</string>
+    <string name="perm_media_ready">Android 10+ AudioPlaybackCapture supported</string>
+    <string name="perm_media_unsupported">Requires Android 10+ (use Microphone instead)</string>
+    <string name="action_grant">Grant</string>
+    <string name="action_configure">Configure</string>
+
+    <!-- Settings Screen -->
+    <string name="settings_title">Settings &amp; API Vault</string>
+    <string name="settings_api_section">Gemini API Key</string>
+    <string name="settings_api_hint">Enter your Google Gemini API key</string>
+    <string name="settings_api_save">Save Key</string>
+    <string name="settings_api_test">Test Key</string>
+    <string name="settings_api_clear">Remove</string>
+    <string name="settings_api_security_note">Stored locally using Android Keystore AES-GCM encryption. Never leaves your device except to authenticate with Google Gemini API.</string>
+    <string name="settings_source_section">Audio Input Source</string>
+    <string name="settings_engine_section">Translation Engine &amp; Model</string>
+    <string name="settings_target_section">Subtitle Language &amp; Formatting</string>
+    <string name="settings_overlay_section">Floating Overlay Appearance</string>
+    <string name="settings_build_section">APK Build &amp; GitHub Actions Guide</string>
+
+    <!-- Transcripts Screen -->
+    <string name="transcripts_title">Translated Transcripts</string>
+    <string name="transcripts_export_txt">Export .TXT</string>
+    <string name="transcripts_share">Share</string>
+    <string name="transcripts_copy_all">Copy All</string>
+    <string name="transcripts_clear_all">Clear All</string>
+    <string name="transcripts_empty_title">No Burmese transcripts yet</string>
+    <string name="transcripts_empty_subtitle">Start a live translation session from Studio to capture and export real-time Burmese subtitles.</string>
+
+    <!-- Overlay & Service -->
+    <string name="notification_channel_name">Live Subtitle Overlay</string>
+    <string name="notification_channel_desc">Keeps audio capture and floating Burmese subtitles active over other apps.</string>
+    <string name="notification_title">Gemini Live Translator Active</string>
+    <string name="notification_body_listening">Translating live audio into Burmese subtitles</string>
+    <string name="notification_action_stop">Stop</string>
+    <string name="overlay_cd_drag">Drag floating subtitle window</string>
+    <string name="overlay_cd_minimize">Minimize floating subtitle window</string>
+    <string name="overlay_cd_expand">Expand floating subtitle window</string>
+    <string name="overlay_cd_clear">Clear subtitle text</string>
+    <string name="overlay_cd_toggle">Start or stop translation</string>
+    <string name="overlay_cd_close">Close floating window</string>
+    <string name="overlay_cd_resize">Resize floating subtitle window</string>
+
+    <!-- Errors -->
+    <string name="err_missing_api_key">Missing Gemini API key. Save your key in Settings first.</string>
+    <string name="err_overlay_permission">Overlay permission required. Enable "Display over other apps".</string>
+    <string name="err_mic_permission">Microphone permission denied. Please grant RECORD_AUDIO access.</string>
+    <string name="err_media_projection_denied">Screen/Audio capture consent was cancelled.</string>
+    <string name="err_media_projection_unsupported">Internal audio capture requires Android 10 (API 29) or higher.</string>
+</resources>
