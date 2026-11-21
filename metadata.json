@@ -1,0 +1,6 @@
+{
+  "name": "Gemini Live Translator",
+  "description": "Real-time audio translator that streams live microphone or internal media audio to Gemini and displays Burmese subtitles in a draggable floating overlay.",
+  "requestFramePermissions": [],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}
